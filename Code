@@ -14,9 +14,6 @@ Links:
     - [GAN Paper](https://arxiv.org/pdf/1406.2661.pdf).
     - [MNIST Dataset](http://yann.lecun.com/exdb/mnist/).
     - [Xavier Glorot Init](www.cs.cmu.edu/~bhiksha/courses/deeplearning/Fall.../AISTATS2010_Glorot.pdf).
-
-Author: Aymeric Damien
-Project: https://github.com/aymericdamien/TensorFlow-Examples/
 """
 
 from __future__ import division, print_function, absolute_import
@@ -28,6 +25,7 @@ import tensorflow as tf
 # Import MNIST data
 from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets("/tmp/data/", one_hot=True)
+
 
 # Training Params
 num_steps = 100000
